@@ -12,4 +12,4 @@ Cose principali da fare:
 - [x] Deployment su Github Pages;
 - [x] Pagina Servizio Civile;
 - [x] Pagina sul Volontariato;
-- [x] Testo riguardante l'intero compito (presente su documento privato al team);
+- [V] Testo riguardante l'intero compito (presente su documento privato al team);
