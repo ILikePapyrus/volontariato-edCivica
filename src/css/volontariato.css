@@ -1,3 +1,24 @@
-.color-me {
+.color-white {
     color:white;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+footer {
+    font-size: 13px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
