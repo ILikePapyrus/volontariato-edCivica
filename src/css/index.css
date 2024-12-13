@@ -4,10 +4,26 @@
 
 h1 {
     color: white;
-    padding-left: 28%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
     font-family:'Mulish';
 }
 
 footer {
     font-size: 13px;
 }
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
