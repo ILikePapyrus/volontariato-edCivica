@@ -1,12 +1,58 @@
+/* Variabili */
 .color-white {
     color:white;
 }
+
+.ms-1 {
+    margin-left: (spacer * .25) !important;
+}
+
+/* Stile per la tabella */ 
+.custom-table th, .custom-table td { 
+    background-color: #343a40; /* Colore di sfondo */ 
+    color: #ffffff; /* Colore del testo */ 
+} 
+
+/* Stile per gli elementi della lista */ 
+.custom-list-group-item { 
+    background-color: #192027; /* Colore di sfondo */ 
+    color: #ffffff; /* Colore del testo */ 
+    text-decoration: none;
+}
+
+.backToTopBtn { 
+    width: 50px; /* Larghezza del pulsante */ 
+    height: 50px; /* Altezza del pulsante */ 
+    border-radius: 50%; /* Rende il pulsante circolare */ 
+    background-color: #264260; /* Colore di sfondo */ 
+    color: white; /* Colore dell'immagine */ 
+    border: none; /* Rimuove il bordo */ 
+    display: flex; /* Centra il contenuto */ 
+    align-items: center; /* Centra verticalmente */ 
+    justify-content: center; /* Centra orizzontalmente */ 
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+} 
+
+.BackToTopBtn:hover { 
+    background-color: #0056b3; /* Colore di sfondo al passaggio del mouse */ 
+}
+
+.BackToTopBtn svg { 
+    width: 24px; /* Larghezza dell'icona SVG */ 
+    height: 24px; /* Altezza dell'icona SVG */ 
+}
+
+/* Attributi */
 
 h1 {
     color: white;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 2%;
+    font-family: "Mulish";
 }
 
 footer {
@@ -16,9 +62,15 @@ footer {
 table {
     margin: auto;
     border-collapse: collapse;
+    /* border: 1px solid white; */
 }
 
 th, td {
     text-align: center;
+    /* border: 1px solid white; */
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}

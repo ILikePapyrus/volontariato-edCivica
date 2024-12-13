@@ -14,13 +14,17 @@
         <title>Volontariato - Educazione Civica</title>
         <!-- Favicon -->
         <link rel="icon" href="/img/people-hugging_1fac2.png" type="image/png">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     </head>
     <body class="bg-dark">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-secondary">
             <div class="container-fluid">
                 <!-- Casetta home -->
-                <a class="navbar-brand" href="index.html" alt="home">
+                <a class="navbar-brand" href="/index.html" alt="home">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="white" class="bi bi-house-heart" viewBox="0 0 16 16">
                         <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982"/>
                         <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
@@ -33,8 +37,8 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <!-- Link navbar -->
                     <div class="navbar-nav">
-                        <a class="nav-link" style="color: white;" href="src\html\volontariato.html">Il Volontariato</a>
-                        <a class="nav-link" style="color: white;" href="src\html\servizio_civile.html">Servizio Civile</a>
+                        <a class="nav-link" style="color: white;" href="volontariato.html">Il Volontariato</a>
+                        <a class="nav-link" style="color: white;" href="servizio_civile.html">Servizio Civile</a>
                     </div>
                 </div>
                 <div class="justify-content-end">
@@ -51,9 +55,188 @@
 
         <!-- Titolo -->
         <h1>Volontariato per noi</h1>
+
+        <!-- Sidebar list group -->
+        <div class="row">
+            <div class="col-4">
+                <nav id="navbarTesto" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                    <nav class="nav nav-pills flex-column">
+                        <div class="container-sm">
+                            <ul class="list-group list-group-flush border rounded-3">
+                                <li class="list-group-item custom-list-group-item">
+                                    <a href="#item-1">
+                                        Cos'è il volontariato?
+                                    </a>
+                                </li>
+                                <li class="list-group-item custom-list-group-item">
+                                    <a href="#item-2">
+                                        Perchè è importante?
+                                    </a>    
+                                </li>                           
+                                <li class="list-group-item custom-list-group-item">
+                                    <a href="#item-3">
+                                        Come iniziare a svolgere <br> attività di volontariato
+                                    </a>
+                                </li>
+                                <li class="list-group-item custom-list-group-item">
+                                    <a href="#item-4">
+                                        Tipi di volontariato
+                                    </a>
+                                </li>
+                                <li class="list-group-item custom-list-group-item">
+                                    <a href="#item-5">
+                                        Differenze negli ambiti
+                                    </a>
+                                </li>
+                                <li class="list-group-item custom-list-group-item">
+                                    <a href="#item-6">
+                                        Tipologia di volontariato <br> più adeguata per noi
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </nav>
+              </nav>
+            </div>
+            
+            <!-- Testo -->
+            <div class="col-8">
+                <div data-bs-spy="scroll" data-bs-target="#navbarTesto" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                    <div id="item-1" style="color: white;">
+                        <h4>Cos'è il volontariato?</h4>
+                        <p>
+                            Il volontariato indica la messa in pratica di una qualsiasi attività, priva, però, di alcuna retribuzione. Ciò implica l’aiuto a persone che necessitano di qualsiasi tipo di assistenza, ma anche per l’aiuto alla collettività, anche in caso di emergenze e disastri. 
+                        </p>
+                        <p>
+                            Poiché, generalmente, il volontariato non presenta fine di lucro, le attività proposte godono di finanziamenti, come, ad esempio, dai partecipanti stessi, da privati, oppure da enti pubblici, che supportano lo svolgimento di specifiche attività o progetti.
+                        </p>
+                        <p>
+                            Esistono enti che, pur non essendo formalmente organizzazioni di volontariato o entità autonome, includono al loro interno sia volontari sia personale retribuito.
+                        </p>
+                        <p>
+                            Altri enti, invece, non richiedono che tutte le attività siano svolte gratuitamente: possono infatti remunerare i propri membri, ma al contempo avvalersi anche di volontari che collaborano senza ricevere alcuna retribuzione.
+                        </p>
+                    </div>
+                    <div id="item-2">
+                        <h4 style="color: white;">Perchè è importante?</h4>
+                        <p style="color: white;">
+                            Il volontariato è importantissimo per una serie di motivi, sia relativi all’individuo che pratica ciò, sia relativi alla società.
+                            In primis, favorisce l’aiuto e la collaborazione per il mantenimento del benessere della collettività, organizzando molteplici iniziative ed eventi, creando, quindi, anche nuovi legami, creando nuove amicizie, e riducendo il rischio di isolamento sociale.
+                            Poiché il volontariato non presenta una sola forma specifica di attuazione, permette, di conseguenza, lo sviluppo di molteplici capacità, comportando ulteriormente un senso di responsabilità più sviluppato, e segue l’individuo nella propria realizzazione personale. Inoltre, come affermato durante la visione dei documentari, il volontariato implica anche l’egoismo dell’individuo che ne pratica, poiché egli ne trae soddisfazione personale. 
+                            Un ulteriore obiettivo è rappresentato dalla promozione relativa la sensibilizzazione in merito a vari argomenti
+                            Infine, crea una società più equa, solidale, e basata sui valori.
+                        </p>
+                    </div>
+                    <div id="item-3" style="color: white;">
+                        <h4>Come iniziare a svolgere attività di volontariato?</h4>
+                        <p>
+                            In primis, è importantissimo riflettere su ciò che è di nostro interesse, per individuare associazioni pertinenti ai nostri ideali, ma, al contempo, che effettivamente li rispettino e li mettano in pratica. Inoltre, è importante considerare anche il fatto che ciò occuperà molto tempo libero, e, pertanto, si potrebbe incorrere alla rinuncia di alcuni altri piaceri. 
+                        </p>
+                        <p>
+                            Tuttavia, il secondo passaggio, che segue l’informazione e la ricerca, è rappresentato dalla scelta e dall’iscrizione a un’associazione. Alcune iscrizioni potrebbero comportare il pagamento di una somma, piccola o grande che sia, che, generalmente, verrà impiegata per la realizzazione di alcune attività.
+                        <p>
+                            Vi sono, però, alcune tipologie di volontariato che prevedono dei corsi obbligatori di formazione, come l’esempio da noi seguito a scuola, in merito alla Croce Rossa, nel quale è necessaria la corretta preparazione, poiché il nostro contributo potrebbe salvare delle vite umane.
+                        </p>
+                        <p>
+                            Un ultimo passaggio, secondo noi essenziale, è rappresentato dall’essere sempre pronti a imparare e a collaborare, poiché, durante queste attività, vi saranno molteplici opportunità o avvenimenti che saranno di grandissimo aiuto per la nostra vita futura, e che ci potrebbero anche essere di insegnamento. Pertanto, è necessario essere sempre pronti ad accoglierne.
+                        </p>
+                    </div>
+                    <div id="item-4">
+                        <h4 style="color: white;">Quanti tipi di volontariato conosci? In quali ambiti?</h4>
+                        <p style="color: white;">
+                            <!-- Testo -->
+                            Ci sono un’infinità di tipologie di volontariato, relativi a vari aspetti quotidiani.
+                            <ul style="color: white;">
+                                <li>Volontariato sociale, che implica l’assistenza a persone in difficoltà, come bambini, anziani, persone con disabilità, oppure senzatetto</li>
+                                <li>Volontariato educativo, ossia il sostegno scolastico, il diritto di studio, l’alfabetizzazione, oppure l’insegnamento di lingue, come, ad esempio, i corsi di lingua italiana per stranieri</li>
+                                <li>Volontariato sanitario, indicato dal sostegno in ospedale, dall’aiuto dei sanitari, oppure anche dalle campagne di donazione del proprio sangue, come quelle promosse dall’avis</li>
+                                <li>Volontariato culturale, rappresentato dalla propria messa a disposizione per guidare i turisti nelle città, nei paesi, o nei musei</li>
+                                <li>Volontariato umanitario, come le missioni estere per aiutare le popolazioni in difficoltà, oppure, pensando all’Italia, l’aiuto prestato dai volontari per gli alluvioni che colpirono l’Emilia Romagna, oppure per quelli prestati in caso di terremoto.</li>
+                                <li>Volontariato sportivo, ossia l’organizzazione di molteplici eventi per l’inclusione sportiva, cosicchè nessuno si senta escluso, e che tutti si possano divertire.</li>
+                            </ul>
+                            <!-- Immagini -->
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 100; height: 80; margin: 0;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/img/ambulanza.jpeg" class="d-block w-100" alt="ambulanza">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/giardinaggio1.jpg" class="d-block w-100" alt="giardinaggio1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/giardinaggio2.jpeg" class="d-block w-100" alt="giardinaggio2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/guida1.jpeg" class="d-block w-100" alt="guida1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/guida2.jpeg" class="d-block w-100" alt="guida2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/insegnante1.jpeg" class="d-block w-100" alt="insegnante1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/insegnante2.jpeg" class="d-block w-100" alt="insegnante2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/pompieri.jpeg" class="d-block w-100" alt="pompieri">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </p>
+                    </div>
+                    <div id="item-5" style="color: white;">
+                        <h4>Che differenze hai riscontrato nei vari ambiti di volontariato?</h4>
+                        <p>
+                            Ciascun ambito differisce dagli altri per gli obiettivi, ma anche per le competenze richieste.
+                            Ad esempio, praticare il volontariato sanitario implica delle conoscenze particolari, che, ad esempio, nel caso del volontariato educativo, in particolare nell’esempio dell’insegnamento della lingua italiana agli stranieri, non sono richieste, e viceversa. Ciò che differisce sono anche le modalità di svolgimento, poiché vi sono delle tipologie che permettono maggiore flessibilità, anche in base ai propri impegni, e altre più rigide.
+                            Inoltre, diremmo differiscano anche per l’impatto, poiché alcune tipologie, ad esempio quelle relative all’ambiente, prevedono dei risultati a lungo termine.
+                            Tuttavia, abbiamo riscontrato anche delle similitudini.
+                            In primis, sicuramente la solidarietà e la propria bontà messe in gioco per aiutare gli altri, ottenendo quindi dei risultati positivi.
+                            In secondo luogo, ogni tipologia, se scelta in base al proprio carattere e ai propri gusti, permette di provare emozioni forti, e di essere di grande aiuto per la propria crescita e formazione.
+                        </p>
+                    </div>
+                    <div id="item-6" style="color: white;">
+                        <h4>
+                            Quale tipologia di volontariato ritenete più adeguato al vostro territorio o alla vostra personalità?
+                        </h4>
+                        <p>
+                            Considerando il nostro territorio, potremmo considerare alcune tipologie particolari.
+                            Ad esempio, nella parte più urbanizzata, come Milano, si potrebbe puntare a un volontariato sociale, per aiutare le persone in difficoltà, visto e considerato anche l’altissimo numero di persone senzatetto che girovagano per la città senza una metà, educativo, per aiutare, ad esempio, gli stranieri a integrarsi in maniera più facile, sanitario, per aiutare gli ospedali nei quali vi potrebbe essere un numero molto alto di persone al momento ricoverate, oppure culturale, ad esempio, facendo da guida per i turisti, illustrando loro le meraviglie architettoniche della città, oppure guidandoli nei musei, narrando loro la storia di ogni opera.
+                            In merito alle aree di periferia e/o campagna della provincia, si potrebbe pensare a un volontariato mirato proprio alla questione relativa la natura, come quello ambientale, magari, ad esempio, offrendo la propria disponibilità per raccogliere i rifiuti gettati a terra, specialmente nei campi che costeggiano le strade.
+
+                            In merito alle nostre personalità, ci si potrebbe sbizzarrire un po’ di più.
+                            Tutti potremmo praticare del volontariato sociale, ambientale e sanitario, considerando i nostri caratteri.
+                            Tuttavia, ad esempio Bossi e Nessi potrebbero praticare anche quello sportivo, visto il loro interesse per questo mondo, mente Vanoni e Donizetti quello educativo e culturale, considerando la semplicità di esposizione e l’essere estroversi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pulsante per tornare in alto nella pagina -->
+        <button class="backToTopBtn" onclick="scrollToTop()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+            </svg>
+        </button> 
         
-        
-        <!-- Testo -->
+        <!-- JS per tornare in alto nella pagina -->
+        <script> 
+            // Funzione per scorrere verso l'alto della pagina     
+            function scrollToTop() { 
+                window.scrollTo({top: 0, behavior: 'smooth'});                
+            } 
+        </script>
 
         <!-- Footer -->
         <div class="container sticky-xxl-bottom">
@@ -62,15 +245,15 @@
                     <p style="padding-left: 5%;">Questo sito è stato creato per un compito di Educazione Civica.</p>
                     <p style="color:rgba(166, 177, 186, 0.97); padding-left: 10%;"> Sito web di Marco Vanoni</p>
                 </div>
-                <div class="color-me">
+                <div>
                     <table>
                         <tr>
                             <th><a href="https://github.com/ILikePapyrus" style="color: white;">Marco Vanoni</a></th>
-                            <th>Marco Bossi</th>
+                            <th style="color: white;">Marco Bossi</th>
                         </tr>
                         <tr>
-                            <th>Giada Donizetti</th>
-                            <th>Matteo Nessi</th>
+                            <th><a href="https://github.com/gghiaccio" style="color: white;">Giada Donizetti</a></th>
+                            <th style="color: white;">Matteo Nessi</th>
                         </tr>
                     </table>
                 </div>
