@@ -4,12 +4,10 @@
 
 h1 {
     color: white;
+    padding-left: 28%;
+    font-family:'Mulish';
 }
 
 footer {
-    padding: 1rem;
-}
-
-txtFooter {
-    color:rgb(97, 96, 96);
+    font-size: 13px;
 }
